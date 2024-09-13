@@ -1,0 +1,132 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('../image/WhatsApp\ Image\ 2024-08-07\ at\ 12.58.58\ PM.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.cont{
+    backdrop-filter: blur(10px);
+    margin: 200px auto ;
+    padding: 30px;
+    width: 300px;
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 7px;
+    background: transparent;
+
+}
+.log-frm{
+    text-align: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+
+}
+
+.cont:hover{
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+    background: transparent;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+.input-group input {
+    flex: 1;
+    padding: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+    color: white;
+}
+
+
+.input-group label {
+    color: #ccc;
+    position: absolute; 
+    margin-left: 260px;
+}
+/* .input-group label:focus {
+    border-bottom: 1px solid #007bff;
+} */
+#em:focus::placeholder ,#pass:focus::placeholder {
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-20px);
+    font-size: 16px;
+    color: #054788;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+}
+
+.options input {
+    margin-right: 5px;
+}
+
+.options a {
+    color: white;
+    text-decoration: none;
+}
+
+.options .separator {
+    margin: 0 5px;
+    color: #ffffff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #fff8f8;
+    color: rgb(11, 11, 11);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background: #747874;
+    color: rgb(247, 237, 237);
+}
+
+p {
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #06386a;
+}
